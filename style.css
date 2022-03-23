@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
 body {
   background-color: #e5e5e5;
   margin: 0;
@@ -14,7 +13,7 @@ header {
   background-color: white;
 }
 
-header a{
+header a {
   font-family: 'Poppins', sans-serif;
   color: #6070ff;
   font-weight: bold;
@@ -22,7 +21,7 @@ header a{
   text-decoration: none;
 }
 
-header nav{
+header nav {
   font-family: 'Poppins', sans-serif;
   color: #6070ff;
   font-weight: bold;
@@ -50,7 +49,6 @@ header nav{
 }
 
 .introduction_section .intro_descript p {
-  font-size: 20px;
   font-family: 'Poppins', sans-serif;
   color: #172b4d;
   font-style: normal;
@@ -67,7 +65,7 @@ header nav{
   font-size: 16px;
 }
 
-.connect_links ul{
+.connect_links ul {
   display: flex;
   padding: 0;
   margin-left: -20px;
