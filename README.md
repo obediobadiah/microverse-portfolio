@@ -18,4 +18,4 @@ This is my portfolio during microverse program.
 
 - GitHub: [@obediobadiah](https://github.com/obediobadiah)
 - Twitter: [@obediobadiah](https://twitter.com/obediobadiah)
-- LinkedIn: [obediobadiah](https://linkedin.com/in/obediobadiah)
+- - LinkedIn: [obediobadiah](https://linkedin.com/in/obediobadiah)
