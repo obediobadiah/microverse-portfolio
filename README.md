@@ -9,7 +9,7 @@ This is my portfolio during microverse program.
 
 - HTML
 - CSS
--JAVASCRIPT
+- JAVASCRIPT
 
 
 ## Authors
