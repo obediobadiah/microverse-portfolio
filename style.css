@@ -58,14 +58,16 @@ header nav {
 
 .card_text_flex p {
   margin-left: 20px;
+  font-size: 0.8rem;
 }
 
-.card_lang_flex p {
-  margin-left: 20px;
+.card_lang_flex li {
+  margin-left: 10px;
   background-color: #ebebff;
-  padding: 10px 20px;
-  border-radius: 15px;
+  padding: 5px 10px;
+  border-radius: 8px;
   color: #6070ff;
+  font-size: 0.8rem;
 }
 
 .introduction_section .intro_descript p {
@@ -73,7 +75,7 @@ header nav {
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .connect_links a {
@@ -95,11 +97,17 @@ header nav {
   margin-left: 20px;
 }
 
+.card_section {
+  display: grid;
+}
+
 .cards_container {
+  display: flex;
+  flex-direction: column;
   background-color: white;
   border-radius: 20px;
   border: 2px solid rgb(211, 211, 211);
-  padding: 30px;
+  padding: 20px;
   margin: 200px 30px 30px 30px;
 }
 
@@ -114,7 +122,7 @@ header nav {
 
 .card_text .card_paragraph {
   font-family: 'Poppins', sans-serif;
-  font-size: 25px;
+  font-size: 1rem;
 }
 
 .card_text_flex {
@@ -122,25 +130,33 @@ header nav {
   margin-left: -20px;
 }
 
-.card_lang_flex {
+.card_lang_flex ul {
   display: flex;
-  margin-left: -20px;
+  margin-left: -50px;
+  list-style-type: none;
 }
 
 .card_button button {
   color: #6070ff;
+  background-color: white;
   border: 1px solid #6070ff;
   padding: 20px;
   font-weight: bold;
   border-radius: 10px;
+  font-size: 1.2rem;
   margin: 20px 0 20px 0;
 }
 
 .about_section {
-  padding: 200px 30px 200px 30px;
+  padding: 200px 20px 200px 20px;
   background-color: white;
   border-top-right-radius: 100px;
   margin-top: 200px;
+}
+
+.about_section_content {
+  display: flex;
+  flex-direction: column;
 }
 
 .about_section .about_title h1 {
@@ -155,7 +171,7 @@ header nav {
   color: #172b4d;
   font-style: normal;
   font-weight: 400;
-  font-size: 22px;
+  font-size: 1rem;
 }
 
 .about_connect_links a {
@@ -169,10 +185,10 @@ header nav {
 .about_connect_links ul {
   display: flex;
   padding: 0;
-  margin-left: -20px;
 }
 
 .about_connect_links ul li {
+  margin-top: 10px;
   list-style-type: none;
   margin-left: 20px;
 }
@@ -180,6 +196,7 @@ header nav {
 .about_button button {
   color: #6070ff;
   border: 1px solid #6070ff;
+  background-color: white;
   padding: 20px;
   font-weight: bold;
   border-radius: 10px;
@@ -222,14 +239,14 @@ header nav {
   font-family: 'Poppins', sans-serif;
   margin-left: 10px;
   border-radius: 20px;
-  padding: 20px;
+  padding: 10px;
   margin-top: 20px;
   font-size: 25px;
 }
 
 .work_list .work_list_other img {
-  width: 30px;
-  height: 30px;
+  width: 25px;
+  height: 25px;
 }
 
 .work_list .languages_list li img {
