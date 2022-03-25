@@ -1,15 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# My portfolio
 
-> Description the project.
+This is my portfolio during microverse program.
 
 
 ## Built With
 
 - HTML
 - CSS
-- JAVASCRIPT
+-JAVASCRIPT
+
+
+## Authors
 
 👤 **Author1**
 
